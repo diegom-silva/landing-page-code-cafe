@@ -1,0 +1,22 @@
+body {
+  max-width: 1440px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cabecalho ul {
+  display: flex;
+
+}
+
+.cabecalho ul li {
+  margin-right: 46px;
+}
+
+.cabecalho a img {
+  padding: 25px 27px;
+}
