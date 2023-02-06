@@ -3,6 +3,7 @@ body {
   margin: 0 auto;
 }
 
+/* header */
 
 .cabecalho {
   display: flex;
@@ -23,6 +24,8 @@ body {
   padding: 25px 27px;
 }
 
+/* section painel */
+
 .painel {
   background: url(../images/painel.jpg) center center no-repeat;
   height: 600px;
@@ -38,6 +41,7 @@ body {
   text-align: center;
 }
 
+/* section quem-somos */
 
 .quem-somos {
   max-width: 702px;
@@ -52,9 +56,102 @@ body {
 
 .quem-somos h2 {
   text-transform: uppercase;
+  font-size: 45px;
   margin-bottom: 37px;
 }
 
 .quem-somos p {
-  text-align: inherit;
+  margin-bottom: 153px;
 }
+
+/* section ladrilho */
+
+.ladrilho div {
+  float: left;
+
+}
+
+.ladrilho .img-grande {
+  background: url(../images/4.jpg) center center no-repeat;
+  height: 600px;
+  width: 50%;
+}
+
+.ladrilho .img-pequeno.grao {
+  background: url(../images/2.jpg) center center no-repeat;
+  height: 300px;
+  width: 25%;
+}
+
+.ladrilho .img-pequeno {
+  background: url(../images/3.jpg) center center no-repeat;
+  height: 300px;
+  width: 25%;
+}
+
+.ladrilho .img-medio {
+  background: url(../images/1.jpg) center center no-repeat;
+  height: 300px;
+  width: 50%;
+}
+
+/* section onde estamos */
+
+
+.onde-estamos {
+  text-align: center;
+}
+.onde-estamos img {
+  width: 170px;
+  margin: 153px 0px 70px 0px;
+}
+
+.onde-estamos h2 {
+  text-transform: uppercase;
+  font-size: 45px;
+  margin-bottom: 37px;
+}
+
+.onde-estamos p {
+  margin-bottom: 153px;
+  font-weight: 300;
+  font-size: 28px;
+}
+
+/* section contato */
+
+.section-contato {
+  background: url(../images/fundo-contato.jpg) center center no-repeat;
+  height: 600px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.section-contato h2 {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 400;
+  text-align: center;
+  margin: 161px 484px 30px 796px;
+}
+
+.section-contato .contato {
+  color: #fff;
+  font-weight: 600;
+  font-size: 25px;
+  margin: 30px 309px 174px 789px;
+  text-align: right;
+}
+
+.section-contato .contato .horario {
+  margin-top: 20px;
+}
+
+
+
+
+
+
+
