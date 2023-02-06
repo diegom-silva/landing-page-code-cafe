@@ -1,6 +1,8 @@
 body {
   max-width: 1440px;
+  margin: 0 auto;
 }
+
 
 .cabecalho {
   display: flex;
@@ -19,4 +21,40 @@ body {
 
 .cabecalho a img {
   padding: 25px 27px;
+}
+
+.painel {
+  background: url(../images/painel.jpg) center center no-repeat;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.painel h2 {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 400;
+  text-align: center;
+}
+
+
+.quem-somos {
+  max-width: 702px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.quem-somos img {
+  width: 170px;
+  margin: 153px 0px 70px 0px;
+}
+
+.quem-somos h2 {
+  text-transform: uppercase;
+  margin-bottom: 37px;
+}
+
+.quem-somos p {
+  text-align: inherit;
 }
