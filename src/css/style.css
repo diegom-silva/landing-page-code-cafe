@@ -43,28 +43,40 @@ body {
 
 /* section quem-somos */
 
-.quem-somos {
-  max-width: 702px;
+.secao-com-texto {
+  padding: 153px;
   text-align: center;
-  margin: 0 auto;
 }
 
-.quem-somos img {
+.secao-com-texto img {
   width: 170px;
-  margin: 153px 0px 70px 0px;
+  height: 170px;
+  margin-bottom: 70px;
 }
 
-.quem-somos h2 {
+.secao-com-texto h2 {
   text-transform: uppercase;
   font-size: 45px;
+  font-weight: 600;
   margin-bottom: 37px;
 }
 
-.quem-somos p {
-  margin-bottom: 153px;
+.secao-com-texto p {
+  font-size: 18px;
+  width: 702px;
+  margin: 0 auto;
 }
 
-/* section ladrilho */
+.secao-com-texto.onde-estamos img {
+  margin-top: 153px;
+}
+
+.secao-com-texto.onde-estamos p {
+  font-size: 28px;
+  width: 480px;
+}
+
+
 
 .ladrilho div {
   float: left;
@@ -95,60 +107,32 @@ body {
   width: 50%;
 }
 
-/* section onde estamos */
-
-
-.onde-estamos {
-  text-align: center;
-}
-.onde-estamos img {
-  width: 170px;
-  margin: 153px 0px 70px 0px;
-}
-
-.onde-estamos h2 {
-  text-transform: uppercase;
-  font-size: 45px;
-  margin-bottom: 37px;
-}
-
-.onde-estamos p {
-  margin-bottom: 153px;
-  font-weight: 300;
-  font-size: 28px;
-}
-
-/* section contato */
 
 .section-contato {
   background: url(../images/fundo-contato.jpg) center center no-repeat;
   height: 600px;
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  
+  position: relative;
 }
 
 .section-contato h2 {
   color: #fff;
-  font-size: 60px;
+  font-size: 45px;
   font-weight: 400;
-  text-align: center;
-  margin: 161px 484px 30px 796px;
+  margin-bottom: 30px;
 }
 
-.section-contato .contato {
+.section-contato address {
   color: #fff;
   font-weight: 600;
   font-size: 25px;
-  margin: 30px 309px 174px 789px;
-  text-align: right;
 }
 
-.section-contato .contato .horario {
-  margin-top: 20px;
+.section-contato .contato {
+  position: absolute;
+  top: 30%;
+  left: 50%;
 }
-
 
 
 
