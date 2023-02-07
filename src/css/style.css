@@ -3,8 +3,8 @@ body {
   margin: 0 auto;
 }
 
-/* header */
 
+/* header */
 .cabecalho {
   display: flex;
   justify-content: space-between;
@@ -13,19 +13,22 @@ body {
 
 .cabecalho ul {
   display: flex;
-
 }
 
 .cabecalho ul li {
-  margin-right: 46px;
+  margin: 0 30px 0 23px;
+}
+
+.cabecalho ul li a:hover {
+  font-weight: bold;
 }
 
 .cabecalho a img {
   padding: 25px 27px;
 }
 
-/* section painel */
 
+/* painel */
 .painel {
   background: url(../images/painel.jpg) center center no-repeat;
   height: 600px;
@@ -41,8 +44,8 @@ body {
   text-align: center;
 }
 
-/* section quem-somos */
 
+/* section quem somos */
 .secao-com-texto {
   padding: 153px;
   text-align: center;
@@ -78,9 +81,9 @@ body {
 
 
 
+/* ladrilho */
 .ladrilho div {
   float: left;
-
 }
 
 .ladrilho .img-grande {
@@ -108,6 +111,7 @@ body {
 }
 
 
+/* section contato */
 .section-contato {
   background: url(../images/fundo-contato.jpg) center center no-repeat;
   height: 600px;
@@ -135,7 +139,55 @@ body {
 }
 
 
+/* footer */
+.rodape {
+  background: url(../images/fundo-rodape.jpg) center center no-repeat;
+  height: 211px;
+}
 
+.rodape .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
+.rodape .container .logo img {
+  margin: 35px 30px;
+}
 
+.rodape .redes-sociais {
+  display: flex;
+  justify-content: flex-end;
+}
 
+.rodape ul {
+  display: flex;
+}
+
+.rodape .container ul li {
+  margin: 0 30px 0 23px;
+}
+
+.rodape ul li a {
+  color: #fff;
+}
+
+.rodape ul li a:hover {
+  font-weight: bold;
+}
+
+.rodape .container .redes-sociais .facebook,
+.rodape .container .redes-sociais .instagram {
+  width: 20px;
+  height: 20px;
+  margin: 0 10px 32px 10px;
+}
+
+.rodape .container .redes-sociais .instagram {
+  margin-right: 32px;
+}
+
+.rodape .container .copyright {
+  color: #fff;
+  margin: 0 0 32px 30px;
+}
