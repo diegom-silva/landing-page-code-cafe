@@ -1,0 +1,130 @@
+@media (max-width: 991.98px) {
+    .secao-com-texto {
+        padding: 153px 25px;
+    }
+
+    .secao-com-texto p,
+    .secao-com-texto.onde-estamos p {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .section-contato {
+        background-image: none;
+        background-color: #D3AE71;
+    }
+
+    .section-contato {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .section-contato .contato {
+        position: relative;
+        top: 30%;
+        left: 0;
+    }
+
+    .section-contato .contato h2 {
+        margin-bottom: 46px;
+    }
+
+}
+
+@media (max-width: 720px) {
+    .painel h2 {
+        font-size: 4rem;
+    }
+
+    .ladrilho .img-grande,
+    .ladrilho .img-medio {
+        width: 100%;
+    }
+
+    .ladrilho .img-pequeno,
+    .ladrilho .img-pequeno.grao {
+        width: 50%;
+    }
+}
+
+@media (max-width: 576px) {
+    .cabecalho {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cabecalho .nav-bar ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .cabecalho .nav-bar ul li {
+        margin: 15px;
+        font-size: 20px;
+    }
+
+    .painel h2 {
+        font-size: 3rem;
+    }
+
+    .secao-com-texto h2 {
+        font-size: 3rem;
+    }
+
+    .secao-com-texto.onde-estamos p {
+        font-size: 2rem;
+    }
+
+    .rodape .container {
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .rodape .container .logo img {
+        margin-top: 45px;
+    }
+
+    .rodape .container ul {
+        display: flex;
+        flex-direction: column;
+        margin: 50px 123px 92px 122px;
+    }
+
+    .rodape .container ul li {
+        margin: 27px;
+    }
+
+    .rodape .container {
+        display: flex;
+    }
+
+    .rodape .container .copyright {
+        order: 1;
+        margin: 0 130px 74px 130px;
+    }
+
+    .rodape .container .redes-sociais {
+        margin: 0 130px 11px 130px;
+    }
+
+    .rodape .container .redes-sociais a .facebook,
+    .rodape .container .redes-sociais a .instagram {
+        margin: 10px;
+    }
+
+}
+
+@media (max-width: 376px) {
+
+    .ladrilho .img-pequeno,
+    .ladrilho .img-pequeno.grao {
+        width: 100%;
+    }
+}
