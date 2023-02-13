@@ -13,10 +13,14 @@ Projeto feito com intuito de colocar em prática o que foi aprendido com **HTML 
 -  Responsividade
 
 
-![preview desktop](https://github.com/diegom-silva/landing-page-code-cafe/blob/main/assets/desktop.png?raw=true)
+<div align="center">
+<img src="https://github.com/diegom-silva/landing-page-code-cafe/blob/main/assets/desktop.png?raw=true" width="600px">
+</div>
 
 
 ## Mobile
 
-![preview mobile](https://github.com/diegom-silva/landing-page-code-cafe/blob/main/assets/mobile.png?raw=true)
+<div align="center">
+<img src="https://github.com/diegom-silva/landing-page-code-cafe/blob/main/assets/mobile.png?raw=true" width="300px">
+</div>
 
