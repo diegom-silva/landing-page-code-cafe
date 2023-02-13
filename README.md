@@ -18,5 +18,5 @@ Projeto feito com intuito de colocar em prática o que foi aprendido com **HTML 
 
 ## Mobile
 
-![preview mobile](https://github.com/diegom-silva/landing-page-code-cafe/blob/main/assets/desktop.png?raw=true)
+![preview mobile](https://github.com/diegom-silva/landing-page-code-cafe/blob/main/assets/mobile.png?raw=true)
 
