@@ -13,10 +13,14 @@ Projeto feito com intuito de colocar em prática o que foi aprendido com **HTML 
 -  Responsividade
 
 
-![preview desktop](https://lh3.googleusercontent.com/H33sTDFQ3WoJ3iNlSars11p0AZ9XLusQkW0OD6syZ8XyZOFACwtoTSUE1DAOSCxZzHqUBpC62pF9lKOfbD--v4tE-mv9MMISNFl750xIRlK5URN5M1OgpAsnKBH3OwaMbQHMk5Z-rx8T7FkSKT1MCc4TCmOJL2PK3EHefysWPS2-7ezCQ81RhhhQ6mkVz51eOXfwgJxmmq3W_aqRA0fribriBC2lWf7M6OyBRFE33Bt039Km--gjZtAzxpwNY4ARs7K_UlthHEeexGn0vwUdnEf39PGQ1kcpacs7ptf2_gfFV1hJvXrxyrtm5oQUIchyGpLOvzUn2E1V5pcrfVuNXU-PRyv8ktGzHUdLV2XB1pLRcFke5cIY9m_KVClqlAaCjrcoe2H68p6hhHIDpHVbDCcU38fMmwwn5MiQG9XnIw9oueyWEXRDLjuzorxaqiLbzkvpiOrZirZKnknJBqVxa641LFlaznOifQG72n5BHpGESkU4YurvaYbiY81lZV0vOhGGEfx8wbda9qihsZ5rljyKhWeZufJ7TcL6WslL7k3_SHLGBTzENQpmLJnyxSOdrbx-d3eIoaSLYWmO_v05jjnBGd-n4QEbhFAMUsW9lyqv4voJL63xaVf-wnM3JHiolSBRGq4hAI13paDME2tKCbaVhXOfFWHr1Pcc_cBPH-9EI9hC2rU553T8B4RftgZXbTHZ-U56qyjXA8sdcGnRgJEg9qnrWNkx2XuKq42tsgkFQeZArq3A4WxyalekC9vdTcyZwvgXaweyO-gEuiAM0lDClKuBl9rXWnUjaSHWgxlKATwB4VBHC7lLL6bGSkhCwd6BMYoRyOW2QLo3OQmzWEG0NyVvTRXi7qguZNfExCkFQag-OkxcRdC1fPC4T592jYwY_hPpegmp2Nc7j18hkJj-cNasTEXnokoTaWV4K6xJIA=w1383-h1934-s-no?authuser=0)
+<div align="center">
+<img src="https://github.com/diegom-silva/landing-page-code-cafe/blob/main/assets/desktop.png?raw=true" width="600px">
+</div>
 
 
 ## Mobile
 
-![preview mobile](https://github.com/diegom-silva/landing-page-code-cafe/blob/main/assets/desktop.png?raw=true)
+<div align="center">
+<img src="https://github.com/diegom-silva/landing-page-code-cafe/blob/main/assets/mobile.png?raw=true" width="300px">
+</div>
 
