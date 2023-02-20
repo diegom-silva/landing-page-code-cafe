@@ -11,9 +11,11 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300;400;600&display=swap" rel="stylesheet">
   <link rel="shortcut icon" href="./src/images/favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="./src/css/reset.css">
   <link rel="stylesheet" href="./src/css/style.css">
+  <link rel="stylesheet" href="./src/css/reset.css">
   <link rel="stylesheet" href="./src/css/responsive.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
   <title>Code Café</title>
 </head>
@@ -34,11 +36,11 @@
   </header>
 
   <main>
-    <section class="painel">
+    <section class="painel" data-aos="fade-right">
       <h2>Aqui o café é só o começo</h2>
     </section>
 
-    <section class="secao-com-texto" id="quem-somos">
+    <section class="secao-com-texto" id="quem-somos" data-aos="fade-left">
       <header>
         <img src="./src/images/logo-secoes.png" alt="logo-secoes">
       </header>
@@ -50,14 +52,15 @@
       </p>
     </section>
 
-    <section class="ladrilho">
+    <section class="ladrilho" data-aos="fade-right"
+    data-aos-anchor-placement="center-bottom">
       <div class="img-grande"></div>
       <div class="img-pequeno grao"></div>
       <div class="img-pequeno"></div>
       <div class="img-medio"></div>
     </section>
 
-    <section class="secao-com-texto onde-estamos" id="onde-estamos">
+    <section class="secao-com-texto onde-estamos" id="onde-estamos" data-aos="fade-left">
       <header>
         <img src="./src/images/logo-secoes.png" alt="logo-secoes">
       </header>
@@ -67,7 +70,7 @@
       </p>
     </section>
 
-    <section class="section-contato" id="contato">
+    <section class="section-contato" id="contato" data-aos="fade-right">
       <div class="contato">
         <h2>Contato</h2>
         <address>
@@ -81,7 +84,7 @@
       </div>
     </section>
 
-    <footer class="rodape">
+    <footer class="rodape"  data-aos="fade-left">
       <div class="container">
         <a href="index.html" class="logo">
           <img src="./src/images/logo.jpg" alt="logo">
@@ -107,6 +110,13 @@
       </div>
     </footer>
   </main>
+
+
+
+  <script>
+  AOS.init();
+  </script>
+
 </body>
 
 </html>
